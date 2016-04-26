@@ -25,8 +25,7 @@
         "source": "https://github.com/ramsey/uuid"
     },
     "require": {
-        "php": ">=5.4",
-        "paragonie/random_compat": "^1.0|^2.0"
+        "php": ">=5.4"
     },
     "require-dev": {
         "moontoast/math": "^1.1",
@@ -46,7 +45,8 @@
         "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
         "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
         "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type.",
-        "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid"
+        "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+        "paragonie/random_compat": "Compatibility shim for random_bytes library"
     },
     "autoload": {
         "psr-4": {"Ramsey\\Uuid\\": "src/"}
